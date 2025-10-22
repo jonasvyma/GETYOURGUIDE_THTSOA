@@ -1,0 +1,46 @@
+CASE STUDY 1: Q1 WAREHOUSE OPERATIONS ANALYSIS
+
+RAW DATA SUMMARY:
+Month,Orders Processed,Avg Processing Time (min),Picking Errors,Late Deliveries,Overtime Hours,Staff Absences,Orders >5 Items,Picking Errors (Large Orders),Error Rate Large Orders (%)
+January,"12,500",19.5,62,43,120,7,"1,250",22,1.76
+February,"14,900",21.0,95,55,170,12,"1,490",35,2.35
+March,"16,300",23.7,128,67,220,18,"1,700",54,3.18
+
+GROWTH ANALYSIS (Jan to March):
+Metric,January,March,Absolute Change,% Change,Assessment
+Orders Processed,"12,500","16,300","+3,800",+30.4%,Expected Growth
+Avg Processing Time (min),19.5,23.7,+4.2,+21.5%,⚠️ CONCERN - Not scaling
+Picking Errors,62,128,+66,+106.5%,🚨 CRITICAL - Quality collapse
+Late Deliveries,43,67,+24,+55.8%,🚨 CRITICAL - Service degradation
+Overtime Hours,120,220,+100,+83.3%,⚠️ CONCERN - Unsustainable
+Staff Absences,7,18,+11,+157.1%,🚨 CRITICAL - Workforce burnout
+Orders >5 Items,"1,250","1,700",+450,+36.0%,Above avg growth
+Error Rate (Large Orders),1.76%,3.18%,+1.42pp,+80.7%,🚨 CRITICAL - System breakdown
+
+EFFICIENCY METRICS:
+Month,Errors per 1000 Orders,Late Deliveries per 1000 Orders,Overtime per Order (min),Processing Time Efficiency
+January,4.96,3.44,0.58,Baseline
+February,6.38,3.69,0.68,↓ -7.5%
+March,7.85,4.11,0.81,↓ -17.6%
+
+KEY FINDINGS:
+1. Quality is deteriorating faster than volume is growing
+   - 30% volume growth causing 106% error increase = 3.5x multiplier effect
+   - Large order error rate nearly DOUBLED (1.76% → 3.18%)
+
+2. Resource strain signals systemic capacity issues
+   - Staff showing burnout symptoms (157% increase in absences)
+   - Overtime becoming structural rather than occasional
+   - Processing time per order increasing despite experience curve
+
+RISKS IDENTIFIED:
+- Client churn risk: Major clients experiencing declining service levels
+- Financial risk: Overtime costs growing 2.7x faster than revenue
+- Operational risk: System optimized for small orders, breaking on complex ones
+- People risk: Burnout trajectory unsustainable, retention threat
+
+OPPORTUNITIES:
+- Process optimization: Large order handling needs dedicated workflow
+- Technology: Automation/better picking systems could reduce error rates
+- Capacity planning: Strategic hiring vs overtime would improve efficiency
+- Training: Staff clearly struggling with volume/complexity - skill gap exists

@@ -1,0 +1,4 @@
+Month,Orders Processed,Avg. Order Processing Time (min),Picking Errors,Late Deliveries,Overtime Hours,Staff Absences
+January,"12,500",19.5,62,43,120,7
+February,"14,900",21,95,55,170,12
+March,"16,300",23.7,128,67,220,18
